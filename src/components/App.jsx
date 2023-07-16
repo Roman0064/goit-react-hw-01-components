@@ -5,7 +5,7 @@ import data from './Statistics/data.json';
 import { Statistics } from './Statistics/Statistics';
 
 import friends from './FriendList/friends.json';
-import { FriendList } from './FriendList/FriendList';
+import { FriendList } from './FriendList/FriendList/FriendList';
 
 import transactions from './TransactionsHistory/transactions.json';
 import { TransactionsHistory } from './TransactionsHistory/TransactionsHistory'
