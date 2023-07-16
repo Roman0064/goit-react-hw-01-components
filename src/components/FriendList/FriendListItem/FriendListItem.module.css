@@ -1,0 +1,35 @@
+.item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eefbfa;
+    box-shadow: rgb(255, 255, 255) -1px -1px 1px, rgb(186, 190, 204) 1px 1px 1px;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+}
+.name{
+    font-size: 24px;
+    font-weight: 500;
+}
+.status_online{
+    display: block;
+    margin-left: 1.625rem;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: green;
+}
+.status_offline{
+    display: block;
+    margin-left: 1.625rem;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: red;
+}
